@@ -1,7 +1,7 @@
 ##### Custom #####
 .idea/
 *.swp
-
+django-app/send_sms/api.py
 
 # Created by https://www.gitignore.io/api/macos,django,python,pycharm
 
