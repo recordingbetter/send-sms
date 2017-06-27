@@ -7,10 +7,17 @@
     <title>Document</title>
 </head>
 <body>
-
-<input type="text" name="sender" value="01029953874">
-<input type="text" name="receiver">
-<input type="text" name="text">
+    <form action="" method="post">
+        {% csrf_token %}
+        <input type="text" name="sender" value="01029953874">
+        <input type="text" name="receiver">
+        <input type="text" name="text">
+        <select name="type" id="type">
+            <option value="sms">sms</option>
+            <option value="lms">lms</option>
+        </select>
+        <button type="submit">SEND</button>
+    </form>
 
 
 
